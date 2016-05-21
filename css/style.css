@@ -1,0 +1,16 @@
+/**
+ * Place your custom styles here.
+ */
+
+footer {
+  background-color: #666;
+  color: #FFF;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer a:hover {
+  color: #FFF;
+}
