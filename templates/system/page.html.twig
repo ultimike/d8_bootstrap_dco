@@ -175,16 +175,16 @@
       {% endif %}
     </div>
 
+  {% if page.pre_footer_left or page.pre_footer_right %}
     <div class="row">
-    {% if page.pre_footer_left or page.pre_footer_right %}
       <div class="pre-footer-left col-sm-6" role="contentinfo">
         {{ page.pre_footer_left }}
       </div>
       <div class="pre-footer-right col-sm-6" role="contentinfo">
         {{ page.pre_footer_right }}
       </div>
-    {% endif %}
     </div>
+  {% endif %}
 
   </div>
 {% endblock %}
